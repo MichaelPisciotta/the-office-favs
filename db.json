@@ -1,0 +1,57 @@
+{
+    "characters": [
+      {
+        "id": "1",
+        "name": "Michael Scott",
+        "image": ""
+      },
+      {
+        "id": "2",
+        "name": "Jim Halpert",
+        "image": ""
+      },
+      {
+        "id": "3",
+        "name": "Dwight Schrute",
+        "image": ""
+      },
+      {
+        "id": "4",
+        "name": "Pam Beesly",
+        "image": ""
+      },
+      {
+        "id": "5",
+        "name": "Ryan Howard",
+        "image": ""
+      },
+      {
+        "id": "6",
+        "name": "Kelly Kapoor",
+        "image": ""
+      },
+      {
+        "id": "7",
+        "name": "Kevin Malone",
+        "image": ""
+      },
+      {
+        "id": "8",
+        "name": "Oscar Martinez",
+        "image": ""
+      },
+      {
+        "id": "9",
+        "name": "Andy Bernard",
+        "image": ""
+      },
+      {
+        "id": "10",
+        "name": "Creed Bratton",
+        "image": ""
+      }
+    ],
+    "favorites": [
+  
+    ]
+  }

@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import { Switch, Route } from "react-router-dom"; 
+import { BrowserRouter as Router } from "react-router-dom";
+import NavBar from "./NavBar";
+import GetCharacters from "./GetCharacters";
+
 
 function App() {
+const [page, setPage] = useState("/characters") //get rid of this later 
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <Router>
+       <NavBar onChangePage={setPage} />
+            <Switch>
+                <Route exact path="/characters">
+                    <GetCharacters setPage={setPage}  />
+                </Route>
+            </Switch>
+      </Router>
     </div>
   );
 }
