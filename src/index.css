@@ -35,3 +35,16 @@ nav {
   .title{
     text-align: center;
 }
+
+img {
+height: 400px;
+width: 600px;
+}
+
+.character-item{
+font-size: 50px;
+}
+
+h2{
+  text-align: center;
+}

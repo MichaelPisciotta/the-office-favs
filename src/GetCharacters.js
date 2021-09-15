@@ -1,22 +1,22 @@
-import React, {useEffect} from "react";
-import CharacterItems from "./CharacterItems"
+import React, {useEffect, useState} from "react";
+import CharacterItem from "./CharacterItem"
 
 
-function GetCharacters({setPage}){
+function GetCharacters(){
 
-    useEffect(() => {
-        fetch("http://localhost:3000/characters")
-          .then((r) => r.json())
-          .then(data => setPage(data));
-    }, [])
+   const [characterDisplay, setCharacterDisplay] = useState([])
 
-    const CharacterList = characters.map((character) => <CharacterItems /> )
-
+   useEffect(() => {
+    fetch("http://localhost:3000/characters")
+      .then((r) => r.json())
+      .then(data => setCharacterDisplay(data));
+}, [])
+   
     return(
         <div>
             <h2>The Office Characters</h2>
             <ul>
-                {CharacterList}
+            {characterDisplay.map((character) => <CharacterItem character={character} />)}
             </ul>
         </div>
         )

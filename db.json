@@ -1,57 +1,99 @@
 {
-    "characters": [
-      {
-        "id": "1",
-        "name": "Michael Scott",
-        "image": ""
-      },
-      {
-        "id": "2",
-        "name": "Jim Halpert",
-        "image": ""
-      },
-      {
-        "id": "3",
-        "name": "Dwight Schrute",
-        "image": ""
-      },
-      {
-        "id": "4",
-        "name": "Pam Beesly",
-        "image": ""
-      },
-      {
-        "id": "5",
-        "name": "Ryan Howard",
-        "image": ""
-      },
-      {
-        "id": "6",
-        "name": "Kelly Kapoor",
-        "image": ""
-      },
-      {
-        "id": "7",
-        "name": "Kevin Malone",
-        "image": ""
-      },
-      {
-        "id": "8",
-        "name": "Oscar Martinez",
-        "image": ""
-      },
-      {
-        "id": "9",
-        "name": "Andy Bernard",
-        "image": ""
-      },
-      {
-        "id": "10",
-        "name": "Creed Bratton",
-        "image": ""
-      }
-    ],
-    "favorites": [
-  
-    ]
-  }
+  "characters": [
+    {
+      "id": "1",
+      "name": "Michael Scott",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/d7d4d55/2147483647/strip/true/crop/750x422+0+0/resize/750x422!/quality/90/?url=https%3A%2F%2Fwww.trbimg.com%2Fimg-5436b8c6%2Fturbine%2Fzap-the-office-michaels-worst-moments-pics-012"
+    },
+    {
+      "id": "2",
+      "name": "Jim Halpert",
+      "image": "https://img.buzzfeed.com/buzzfeed-static/static/2017-08/9/11/asset/buzzfeed-prod-fastlane-01/sub-buzz-22381-1502291405-3.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto"
+    },
+    {
+      "id": "3",
+      "name": "Dwight Schrute",
+      "image": "https://www.looper.com/img/gallery/the-untold-truth-of-dwight-schrute/intro-1562620300.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Pam Beesly",
+      "image": "https://images.thebrag.com/tb/uploads/2020/02/PAMHEAD-800x455.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Ryan Howard",
+      "image": "https://cdn.jwplayer.com/v2/media/46qsexlL/poster.jpg?width=720"
+    },
+    {
+      "id": "6",
+      "name": "Kelly Kapoor",
+      "image": "https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/entertainment/Screen-Shot-2019-12-17-at-124022-PM-5182f6de576537d9a9a68f3a6b80ead9.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Kevin Malone",
+      "image": "https://quizswish.com/wp-content/uploads/2020/09/Kevin-Malone-See-World-Quote-Cover.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Oscar Martinez",
+      "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/04/1400x700-5-14.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5"
+    },
+    {
+      "id": "9",
+      "name": "Andy Bernard",
+      "image": "https://www.looper.com/img/gallery/the-office-the-real-reason-andy-was-promoted-over-dwight/intro-1586377261.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Creed Bratton",
+      "image": "https://media.altpress.com/uploads/2018/07/creed_the_office.jpg"
+    }
+  ],
+  "memes": [
+    {
+      "id": "1",
+      "image": "https://images.squarespace-cdn.com/content/v1/5ba6a42e348cd90475481fc2/1551457399695-EDYJQST3974HZR2JTQYZ/Michael+1.jpg?format=1000w"
+    },
+    {
+      "id": "2",
+      "image": "https://i.pinimg.com/736x/f5/4e/8e/f54e8ed11544fe49c5fc460bc0a2addb.jpg"
+    },
+    {
+      "id": "3",
+      "image": "https://i.kym-cdn.com/photos/images/original/000/157/791/2jee.jpg"
+    },
+    {
+      "id": "4",
+      "image": "https://i.imgflip.com/4ob0lo.png"
+    },
+    {
+      "id": "5",
+      "image": "https://i.kym-cdn.com/photos/images/original/001/849/285/8cd.jpg"
+    },
+    {
+      "id": "6",
+      "image": "https://pbs.twimg.com/media/Dv1jsR_WkAAJsbO.jpg"
+    },
+    {
+      "id": "7",
+      "image": "https://i.pinimg.com/550x/d5/19/a3/d519a373842a7e08e78154adee33e510.jpg"
+    },
+    {
+      "id": "8",
+      "image": "https://memegenerator.net/img/instances/71152078.jpg"
+    },
+    {
+      "id": "9",
+      "image": "https://4kforcancer.org/wp-content/uploads/2018/12/office5.jpg"
+    },
+    {
+      "id": "10",
+      "image": "https://i.imgflip.com/2eozw1.jpg"
+    }
+  ],
+  "favorites": [
+    
+  ]
+}
