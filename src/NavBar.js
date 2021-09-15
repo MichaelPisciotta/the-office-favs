@@ -11,7 +11,7 @@ function NavBar() {
         
             <NavLink exact to="/favorites/new">Add New Favorites</NavLink>
 
-            <NavLink exact to="/favorites">Favorite List</NavLink>
+            <NavLink exact to="/favorites">Favorites</NavLink>
 
             <a className="mail" href="mailto:mfp56@miami.edu">Email Me!</a>  
 

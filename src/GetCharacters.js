@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import CharacterItem from "./CharacterItem"
 
-
+//change characterdisplay to say characters
 function GetCharacters(){
 
    const [characterDisplay, setCharacterDisplay] = useState([])

@@ -8,9 +8,14 @@ import AddFavorites from "./AddFavorites"
 import FavoriteList from "./FavoriteList"
 
 function OfficeContainer(){
-
-const [page, setPage] = useState("/characters") 
 const [favorites, setFavorites] = useState([])
+
+
+useEffect(() => {
+    fetch("http://localhost:3000/favorites")
+      .then((r) => r.json())
+      .then(data => setFavorites(data));
+}, [])
 
 
 function addFav(newFav){
@@ -22,7 +27,7 @@ function addFav(newFav){
 
     return(
         <Router>
-        <NavBar onChangePage={setPage} />
+        <NavBar />
              <Switch>
                  <Route exact path="/characters">
                      <GetCharacters  />
@@ -49,3 +54,8 @@ function addFav(newFav){
 
 
 export default OfficeContainer; 
+
+
+//favorites container and characters/memes container
+//rename getcharacters and getmemes
+//practice iterating over  arrays of objects

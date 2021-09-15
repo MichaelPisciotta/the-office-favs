@@ -5,7 +5,7 @@ function FavoriteList({favorites}){
         <div>
             <h2>My Favorites</h2>
             <ul>
-          {favorites.map((favorite) => <FavoriteItem favorites={favorites}  />)}
+          {favorites.map((favorite) => <FavoriteItem favorite={favorite} />)}
             </ul>
         </div>
     )

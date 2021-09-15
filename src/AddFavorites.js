@@ -9,10 +9,9 @@ function AddFavorites({addFav}){
     function handleSubmit(e) {
         e.preventDefault()
         const favoriteObj = { 
-            favorite: { 
+             
                 name: name, 
                 image: image
-            }
         }
         fetch("http://localhost:3000/favorites", {
             method: "POST",
@@ -22,13 +21,13 @@ function AddFavorites({addFav}){
             body: JSON.stringify(favoriteObj)
         })
             .then(r => r.json())
-            .then(data => addFav(data.favorite))
+            .then(data => addFav(data))
     };
 
 
     return(
         <form onSubmit={handleSubmit}>  
-        <h2>Add New Favorite</h2>
+        <h2>Add New Favorites!</h2>
 
         <label htmlFor="Character">Character:</label>
         <input type="text" value={name} onChange={(e) => setName(e.target.value)}/>
@@ -37,7 +36,7 @@ function AddFavorites({addFav}){
         <label htmlFor="image"> Image</label>
         <input type="text" value={image} onChange={(e) => setImage(e.target.value)} />  
 
-        <button type="submit">Add Todo</button>
+        <button type="submit">Add Favorite</button>
     </form>
     )
 }

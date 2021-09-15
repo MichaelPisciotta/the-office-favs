@@ -94,6 +94,20 @@
     }
   ],
   "favorites": [
-    
+    {
+      "name": "creed",
+      "image": "https://i.pinimg.com/736x/ef/24/d1/ef24d195d33f827ecdfcffbd3f07764e.jpg",
+      "id": 3
+    },
+    {
+      "name": "creed2",
+      "image": "https://i.pinimg.com/736x/ef/24/d1/ef24d195d33f827ecdfcffbd3f07764e.jpg",
+      "id": 4
+    },
+    {
+      "name": "creed",
+      "image": "https://i.pinimg.com/736x/ef/24/d1/ef24d195d33f827ecdfcffbd3f07764e.jpg",
+      "id": 5
+    }
   ]
 }
